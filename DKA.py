@@ -31,7 +31,6 @@ def test(table, alphabet, chain):
             return 0
 
         for i in table[k]:
-            print(i)
             if i not in table:
                 print("ошибка в", k, table[k], "в таблице переходов нет", i)
                 return 0
